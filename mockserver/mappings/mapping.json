@@ -1,0 +1,160 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "POST",
+        "url": "/employee"
+      },
+      "response": {
+        "status": 201,
+        "jsonBody": { "id": "6",
+          "result": "Success",
+          "description": "successful operation"},
+        "headers": {
+            "Content-Type": "application/json"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "POST",
+        "url": "/employee/createWithArray"
+      },
+      "response": {
+        "status": 201,
+        "jsonBody": { "id": "7",
+          "result": "Success",
+          "description": "successful operation"},
+        "headers": {
+            "Content-Type": "application/json"
+        }
+      }
+    },
+	{
+      "request": {
+        "method": "POST",
+        "url": "/employee/createWithList"
+      },
+     "response": {
+        "status": 201,
+        "jsonBody": { "id": "8",
+          "result": "Success",
+          "description": "successful operation"},
+        "headers": {
+            "Content-Type": "application/json"
+        }
+      }
+   },
+  {
+      "request": {
+        "method": "GET",
+        "url": "/employees"
+      }, 
+    "response": {
+    "status": 200,
+   "jsonBody": [
+   {
+	"id":1,
+	"name": "Test Employee 1",
+	"department": "P&T"
+	},
+	{
+	"id":2,
+	"name": "Test Employee 2",
+	"department": "Operations"
+	},
+	{
+	"id":3,
+	"name": "Test Employee 3",
+	"department": "HR"
+	},
+	{
+	"id":4,
+	"name": "Test Employee 4",
+	"department": "Sales"
+	}
+	
+	],
+	 "headers": {
+            "Content-Type": "application/json"
+        }
+	}
+},
+{
+      "request": {
+        "method": "GET",
+        "url": "/employee/1"
+      }, 
+    "response": {
+    "status": 200,
+   "jsonBody": [
+    {
+	"id":1,
+	"name": "Test Employee 1",
+	"department": "P&T"
+	}
+	],
+	 "headers": {
+            "Content-Type": "application/json"
+        }
+	}
+},
+{
+      "request": {
+        "method": "GET",
+        "url": "/employee/2"
+      }, 
+    "response": {
+    "status": 200,
+   "jsonBody": [
+   {
+	"id":2,
+	"name": "Test Employee 2",
+	"department": "Operations"
+	}
+	],
+	 "headers": {
+            "Content-Type": "application/json"
+        }
+	}
+},
+{
+      "request": {
+        "method": "GET",
+        "url": "/employee/3"
+      }, 
+    "response": {
+    "status": 200,
+   "jsonBody": [
+   {
+	"id":3,
+	"name": "Test Employee 3",
+	"department": "HR"
+	}
+	],
+	 "headers": {
+            "Content-Type": "application/json"
+        }
+	}
+},
+{
+      "request": {
+        "method": "GET",
+        "url": "/employee/4"
+      }, 
+    "response": {
+    "status": 200,
+   "jsonBody": [
+   {
+	"id":4,
+	"name": "Test Employee 4",
+	"department": "Sales"
+	}
+	],
+	 "headers": {
+            "Content-Type": "application/json"
+        }
+	}
+}
+]
+}    

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3475" started-at="2020-08-15T21:56:54 IST" finished-at="2020-08-15T21:56:57 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3475" started-at="2020-08-15T21:56:54 IST" finished-at="2020-08-15T21:56:57 IST">
+      <class name="com.rabobank.testcase.EmployeeApiEndpoints">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.rabobank.testcase.EmployeeApiEndpoints@17f62e33]" name="setupSuite" is-config="true" duration-ms="406" started-at="2020-08-15T21:56:54 IST" finished-at="2020-08-15T21:56:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setBaseURI()[pri:0, instance:com.rabobank.testcase.EmployeeApiEndpoints@17f62e33]" name="setBaseURI" is-config="true" duration-ms="1774" started-at="2020-08-15T21:56:54 IST" finished-at="2020-08-15T21:56:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBaseURI -->
+        <test-method status="PASS" signature="createemp(java.lang.reflect.Method)[pri:1, instance:com.rabobank.testcase.EmployeeApiEndpoints@17f62e33]" name="createemp" duration-ms="31" started-at="2020-08-15T21:56:56 IST" finished-at="2020-08-15T21:56:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rabobank.testcase.EmployeeApiEndpoints.createemp(java.lang.reflect.Method) throws org.json.JSONException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createemp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.rabobank.testcase.EmployeeApiEndpoints@17f62e33]" name="tearDown" is-config="true" duration-ms="1018" started-at="2020-08-15T21:56:56 IST" finished-at="2020-08-15T21:56:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createemp status=SUCCESS method=EmployeeApiEndpoints.createemp(java.lang.reflect.Method)[pri:1, instance:com.rabobank.testcase.EmployeeApiEndpoints@17f62e33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="fetchempDetails(java.lang.reflect.Method)[pri:2, instance:com.rabobank.testcase.EmployeeApiEndpoints@17f62e33]" name="fetchempDetails" duration-ms="0" started-at="2020-08-15T21:56:57 IST" finished-at="2020-08-15T21:56:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rabobank.testcase.EmployeeApiEndpoints.fetchempDetails(java.lang.reflect.Method) throws org.json.JSONException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchempDetails -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.rabobank.testcase.EmployeeApiEndpoints@17f62e33]" name="tearDown" is-config="true" duration-ms="133" started-at="2020-08-15T21:56:57 IST" finished-at="2020-08-15T21:56:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fetchempDetails status=SUCCESS method=EmployeeApiEndpoints.fetchempDetails(java.lang.reflect.Method)[pri:2, instance:com.rabobank.testcase.EmployeeApiEndpoints@17f62e33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="updateemp(java.lang.reflect.Method)[pri:3, instance:com.rabobank.testcase.EmployeeApiEndpoints@17f62e33]" name="updateemp" duration-ms="0" started-at="2020-08-15T21:56:57 IST" finished-at="2020-08-15T21:56:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rabobank.testcase.EmployeeApiEndpoints.updateemp(java.lang.reflect.Method) throws org.json.JSONException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateemp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.rabobank.testcase.EmployeeApiEndpoints@17f62e33]" name="tearDown" is-config="true" duration-ms="121" started-at="2020-08-15T21:56:57 IST" finished-at="2020-08-15T21:56:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=updateemp status=SUCCESS method=EmployeeApiEndpoints.updateemp(java.lang.reflect.Method)[pri:3, instance:com.rabobank.testcase.EmployeeApiEndpoints@17f62e33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="deleteemp(java.lang.reflect.Method)[pri:4, instance:com.rabobank.testcase.EmployeeApiEndpoints@17f62e33]" name="deleteemp" duration-ms="51" started-at="2020-08-15T21:56:57 IST" finished-at="2020-08-15T21:56:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rabobank.testcase.EmployeeApiEndpoints.deleteemp(java.lang.reflect.Method) throws org.json.JSONException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteemp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.rabobank.testcase.EmployeeApiEndpoints@17f62e33]" name="tearDown" is-config="true" duration-ms="131" started-at="2020-08-15T21:56:57 IST" finished-at="2020-08-15T21:56:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteemp status=SUCCESS method=EmployeeApiEndpoints.deleteemp(java.lang.reflect.Method)[pri:4, instance:com.rabobank.testcase.EmployeeApiEndpoints@17f62e33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.rabobank.testcase.EmployeeApiEndpoints@17f62e33]" name="endReport" is-config="true" duration-ms="111" started-at="2020-08-15T21:56:57 IST" finished-at="2020-08-15T21:56:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.rabobank.testcase.EmployeeApiEndpoints -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
